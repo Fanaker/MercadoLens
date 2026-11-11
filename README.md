@@ -3,7 +3,7 @@
 
   <p><strong>Convierte movimientos de venta en decisiones comerciales más claras.</strong></p>
   <p>Python · Pandas · SQL · SQLite · FastAPI · JavaScript · Power BI-ready</p>
-  <p><sub>Proyecto de portafolio · Comercio minorista ficticio · Datos 100% sintéticos · Sin despliegue obligatorio</sub></p>
+  <p><sub>Analítica comercial · Comercio minorista ficticio · Datos 100% sintéticos · Ejecución local</sub></p>
 </div>
 
 ---
@@ -143,4 +143,6 @@ Más información: [Arquitectura](docs/ARCHITECTURE.md) · [Diccionario de datos
 
 ---
 
-<div align="center"><sub>MercadoLens v1.0.0 · Proyecto demostrativo para portafolio de Ingeniería de Sistemas · 2026</sub></div>
+## Autor y licencia
+
+**Fanaker Labs** · Proyecto personal de analítica comercial, ingeniería de datos e indicadores de negocio. Código bajo licencia [MIT](LICENSE).
