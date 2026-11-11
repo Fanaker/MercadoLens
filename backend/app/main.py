@@ -45,7 +45,9 @@ def export_dataset(dataset:str):
     return StreamingResponse(iter([data.encode('utf-8')]),media_type='text/csv; charset=utf-8',
       headers={'Content-Disposition':f'attachment; filename="mercadolens_{dataset}.csv"'})
 
-app.mount('/assets',StaticFiles(directory=str(WEB/'assets')),name='assets')
+assets_dir = WEB / 'assets'
+if assets_dir.is_dir():
+    app.mount('/assets', StaticFiles(directory=str(assets_dir)), name='assets')
 
 @app.get('/')
 def index():return FileResponse(WEB/'index.html')
