@@ -1,0 +1,25 @@
+﻿sku,product_name,category,unit_price,unit_cost,initial_stock
+F001,Pollo entero fresco,Frescos,19.9,14.1,85
+F002,Carne molida premium,Frescos,28.9,20.4,64
+F003,Filete de pollo,Frescos,26.5,18.2,80
+F004,Huevos de granja x15,Frescos,12.9,9.2,110
+F005,Queso fresco 500 g,Frescos,17.9,12.8,72
+A001,Arroz extra 5 kg,Abarrotes,24.9,18.1,110
+A002,Aceite vegetal 1 L,Abarrotes,10.9,7.7,130
+A003,Azúcar rubia 1 kg,Abarrotes,4.9,3.4,145
+A004,Fideos spaghetti 500 g,Abarrotes,5.5,3.6,120
+A005,Atún en conserva 170 g,Abarrotes,7.8,5.4,95
+A006,Leche evaporada 400 g,Abarrotes,4.7,3.15,150
+B001,Agua mineral 625 ml,Bebidas,2.5,1.35,200
+B002,Gaseosa cola 1.5 L,Bebidas,7.5,4.85,145
+B003,Jugo de naranja 1 L,Bebidas,7.9,5.15,95
+B004,Bebida isotónica 500 ml,Bebidas,5.9,3.9,110
+L001,Detergente en polvo 900 g,Limpieza,14.5,10.1,80
+L002,Lavavajilla líquido 750 ml,Limpieza,9.9,6.8,90
+L003,Lejía multiusos 1 L,Limpieza,5.5,3.35,100
+L004,Papel toalla x2,Limpieza,11.9,8.1,95
+L005,Bolsas de basura x20,Limpieza,8.5,5.65,82
+C001,Shampoo nutritivo 400 ml,Cuidado personal,21.9,15.4,70
+C002,Jabón antibacterial x3,Cuidado personal,10.5,7.2,90
+C003,Pasta dental 90 g,Cuidado personal,8.9,6.1,100
+C004,Desodorante roll-on,Cuidado personal,15.9,11.2,72

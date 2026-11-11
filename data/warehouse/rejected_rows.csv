@@ -1,0 +1,26 @@
+﻿line_id,order_id,sold_at,sku,quantity,unit_price,unit_cost,discount,channel,payment_method,error
+LN-0003643,VEN-20261022-02177,2026-10-22 11:59:00,L004,2,11.9,8.1,0.0,Tienda física,Plin,duplicate_line_id
+LN-0002204,VEN-20260823-01337,2026-08-23 14:08:00,C002,2,10.19,7.2,0.0,Tienda física,Yape,duplicate_line_id
+LN-0003394,VEN-20261011-02035,2026-10-11 16:59:00,A001,1,24.9,18.1,0.0,Tienda física,Efectivo,duplicate_line_id
+LN-0002102,VEN-20260817-01275,2026-08-17 12:09:00,B001,3,2.5,1.35,0.0,Tienda física,Yape,duplicate_line_id
+LN-0000446,VEN-20260526-00266,2026-05-26 17:40:00,F005,1,17.9,12.8,0.0,Tienda física,Plin,duplicate_line_id
+LN-0003396,VEN-20261011-02036,2026-10-11 10:26:00,B004,1,5.9,3.9,0.0,Tienda física,Yape,duplicate_line_id
+LN-0003454,VEN-20261013-02070,2026-10-13 08:43:00,F005,2,17.9,12.8,0.0,Tienda física,Tarjeta,duplicate_line_id
+LN-0000920,VEN-20260622-00557,2026-06-22 15:22:00,A004,2,5.33,3.6,0.0,WhatsApp,Yape,duplicate_line_id
+LN-0000544,VEN-20260531-00327,2026-05-31 15:52:00,A005,1,7.8,5.4,0.0,Tienda física,Yape,duplicate_line_id
+LN-0001795,VEN-20260804-01086,2026-08-04 16:07:00,F004,1,12.9,9.2,0.0,WhatsApp,Yape,duplicate_line_id
+LN-0001691,VEN-20260730-01022,2026-07-30 16:30:00,B002,1,7.5,4.85,2.0,Tienda física,Yape,duplicate_line_id
+LN-0001306,VEN-20260714-00795,2026-07-14 16:47:00,A003,1,4.9,3.4,0.0,Tienda física,Yape,duplicate_line_id
+BAD-SKU-001,VEN-20260622-00561,2026-06-22 09:06:00,UNKNOWN,1,12.9,9.2,0.0,Tienda física,Plin,unknown_sku
+BAD-QTY-002,VEN-20260624-00581,2026-06-24 12:36:00,F005,-3,17.9,12.8,1.5,Tienda física,Yape,invalid_numbers
+BAD-SKU-004,VEN-20260516-00154,2026-05-16 16:32:00,UNKNOWN,1,2.5,1.35,0.0,Tienda física,Yape,unknown_sku
+BAD-SKU-005,VEN-20260510-00095,2026-05-10 14:19:00,UNKNOWN,1,7.8,5.4,1.0,Tienda física,Efectivo,unknown_sku
+BAD-SKU-003,VEN-20260508-00074,2026-05-08 16:06:00,UNKNOWN,1,5.5,3.35,0.0,Tienda física,Yape,unknown_sku
+BAD-QTY-003,VEN-20260603-00356,2026-06-03 19:36:00,A002,-3,10.9,7.7,1.5,WhatsApp,Tarjeta,invalid_numbers
+BAD-SKU-002,VEN-20260626-00598,2026-06-26 18:50:00,UNKNOWN,1,9.9,6.8,0.0,WhatsApp,Efectivo,unknown_sku
+BAD-SKU-006,VEN-20260519-00182,2026-05-19 12:46:00,UNKNOWN,2,26.5,18.2,0.0,Tienda física,Efectivo,unknown_sku
+BAD-SKU-000,VEN-20260511-00105,2026-05-11 20:58:00,UNKNOWN,1,15.9,11.2,0.0,Tienda física,Plin,unknown_sku
+BAD-QTY-000,VEN-20260625-00591,2026-06-25 15:55:00,B002,-3,7.5,4.85,0.0,Tienda física,Yape,invalid_numbers
+BAD-QTY-001,VEN-20260624-00576,2026-06-24 18:05:00,F005,-3,17.9,12.8,0.0,WhatsApp,Tarjeta,invalid_numbers
+BAD-SKU-007,VEN-20260505-00041,2026-05-05 16:35:00,UNKNOWN,1,15.42,11.2,0.0,Tienda física,Yape,unknown_sku
+BAD-QTY-004,VEN-20260526-00261,2026-05-26 09:21:00,L002,-3,9.9,6.8,0.0,Tienda física,Yape,invalid_numbers

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#102438" />
+  <meta name="description" content="MercadoLens · Inteligencia comercial para decisiones de negocio con datos sintéticos" />
+  <title>MercadoLens | Inteligencia comercial</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand-row">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div><div class="brand-name">mercado<span>lens</span><span class="brand-period">.</span></div><div class="brand-caption">INTELIGENCIA COMERCIAL</div></div>
+      </div>
+      <div class="sidebar-section-label">ESPACIO DE TRABAJO</div>
+      <nav class="nav" id="nav" aria-label="Navegación principal"></nav>
+      <div class="sidebar-end">
+        <div class="advisor-card">
+          <div class="advisor-spark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8L12 2Z"/><path d="M19 17l.8 2.2L22 20l-2.2.8L19 23l-.8-2.2L16 20l2.2-.8L19 17Z"/></svg></div>
+          <p>Decisiones más claras, todos los días.</p>
+          <span>Explora oportunidades con datos.</span>
+          <button type="button" class="advisor-link" data-go="insights">Ver oportunidades <b>↗</b></button>
+        </div>
+        <div class="sidebar-divider"></div>
+        <div class="workspace-profile"><div class="profile-avatar">CR</div><div class="profile-copy"><strong>Comercial Rivera</strong><span>Espacio de demostración</span></div><span class="profile-dots">···</span></div>
+      </div>
+    </aside>
+    <div class="main-shell">
+      <header class="topbar">
+        <div class="topbar-left"><button class="mobile-menu" id="mobile-menu" type="button" aria-label="Abrir menú">☰</button><span class="topbar-trail">Workspace</span><span class="trail-sep">/</span><strong id="breadcrumb">Vista general</strong></div>
+        <div class="topbar-right"><div class="demo-chip"><span class="demo-dot"></span> DATOS DE DEMOSTRACIÓN</div><span class="topbar-rule"></span><button id="refresh" class="top-icon-btn" aria-label="Actualizar datos" title="Recargar datos">↻</button><div class="top-avatar">CR</div></div>
+      </header>
+      <main id="content" aria-live="polite"><div class="loading-screen"><div class="loader"></div><p>Preparando tu inteligencia comercial…</p></div></main>
+      <footer class="site-footer"><span>MercadoLens · Proyecto de portafolio con datos 100% sintéticos</span><span>Hecho para transformar datos en decisiones <span class="footer-spark">✦</span></span></footer>
+    </div>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="/app.js" defer></script>
+</body>
+</html>

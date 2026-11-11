@@ -1,0 +1,25 @@
+﻿product_id,sku,product_name,category_id,list_price,unit_cost
+1,F001,Pollo entero fresco,1,19.9,14.1
+2,F002,Carne molida premium,1,28.9,20.4
+3,F003,Filete de pollo,1,26.5,18.2
+4,F004,Huevos de granja x15,1,12.9,9.2
+5,F005,Queso fresco 500 g,1,17.9,12.8
+6,A001,Arroz extra 5 kg,2,24.9,18.1
+7,A002,Aceite vegetal 1 L,2,10.9,7.7
+8,A003,Azúcar rubia 1 kg,2,4.9,3.4
+9,A004,Fideos spaghetti 500 g,2,5.5,3.6
+10,A005,Atún en conserva 170 g,2,7.8,5.4
+11,A006,Leche evaporada 400 g,2,4.7,3.15
+12,B001,Agua mineral 625 ml,3,2.5,1.35
+13,B002,Gaseosa cola 1.5 L,3,7.5,4.85
+14,B003,Jugo de naranja 1 L,3,7.9,5.15
+15,B004,Bebida isotónica 500 ml,3,5.9,3.9
+16,L001,Detergente en polvo 900 g,4,14.5,10.1
+17,L002,Lavavajilla líquido 750 ml,4,9.9,6.8
+18,L003,Lejía multiusos 1 L,4,5.5,3.35
+19,L004,Papel toalla x2,4,11.9,8.1
+20,L005,Bolsas de basura x20,4,8.5,5.65
+21,C001,Shampoo nutritivo 400 ml,5,21.9,15.4
+22,C002,Jabón antibacterial x3,5,10.5,7.2
+23,C003,Pasta dental 90 g,5,8.9,6.1
+24,C004,Desodorante roll-on,5,15.9,11.2

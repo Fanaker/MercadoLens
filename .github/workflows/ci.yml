@@ -1,0 +1,21 @@
+name: Validate MercadoLens
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: pip install -r backend/requirements-dev.txt
+      - run: python scripts/generate_demo_data.py
+      - run: python scripts/build_warehouse.py
+      - run: python scripts/export_powerbi.py
+      - run: python -m pytest backend/tests -q
+      - run: node --check frontend/app.js
